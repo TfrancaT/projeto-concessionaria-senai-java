@@ -1,0 +1,48 @@
+
+package Pk_upamecanocars;
+
+public class UpamecanoCarsClass {
+    
+    private String modelCar, colorCar;
+    private int yearCar, doorsCar;
+    
+    UpamecanoCarsClass(String modelCar, String colorCar, int yearCar, int doorsCar){
+        this.modelCar = modelCar;
+        this.colorCar = colorCar;
+        this.yearCar = yearCar;
+        this.doorsCar = doorsCar;
+    }
+    
+    
+    /* Getter & Setter para o modelo; */
+    public String getModelCar(){
+        return modelCar;
+    }
+    public void setModelCar(String modelCar){
+        this.modelCar = modelCar;
+    }
+    
+    /* Getter & Setter para a cor; */
+    public String getColorCar(){
+        return colorCar;
+    }
+    public void setColorCar(){
+        this.colorCar = colorCar;
+    }
+    
+    /* Getter & Setter para o ano; */
+    public int getYearCar(){
+        return yearCar;
+    }
+    public void setYearCar(int yearCar){
+        this.yearCar = yearCar;
+    }
+    
+    /* Getter & Setter para a quantidade de portas; */
+    public int getDoorsCar(){
+        return doorsCar;
+    }
+    public void setDoorsCar(int doorsCar){
+        this.doorsCar = doorsCar;
+    }
+}
