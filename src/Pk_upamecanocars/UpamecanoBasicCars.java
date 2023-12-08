@@ -1,18 +1,19 @@
 
 package Pk_upamecanocars;
 
-public class UpamecanoCarsClass {
+public class UpamecanoBasicCars {
     
     private String modelCar, colorCar;
     private int yearCar, doorsCar;
+    private double valueCar;
     
-    UpamecanoCarsClass(String modelCar, String colorCar, int yearCar, int doorsCar){
+    UpamecanoBasicCars(String modelCar, String colorCar, int yearCar, int doorsCar, double valueCar){
         this.modelCar = modelCar;
         this.colorCar = colorCar;
         this.yearCar = yearCar;
         this.doorsCar = doorsCar;
+        this.valueCar = valueCar;
     }
-    
     
     /* Getter & Setter para o modelo; */
     public String getModelCar(){
@@ -26,7 +27,7 @@ public class UpamecanoCarsClass {
     public String getColorCar(){
         return colorCar;
     }
-    public void setColorCar(){
+    public void setColorCar(String colorCar){
         this.colorCar = colorCar;
     }
     
@@ -44,5 +45,13 @@ public class UpamecanoCarsClass {
     }
     public void setDoorsCar(int doorsCar){
         this.doorsCar = doorsCar;
+    }
+    
+        /* Getter & Setter para a quantidade de portas; */
+    public double getValueCar(){
+        return valueCar;
+    }
+    public void setValueCar(double valueCar){
+        this.valueCar = valueCar;
     }
 }
