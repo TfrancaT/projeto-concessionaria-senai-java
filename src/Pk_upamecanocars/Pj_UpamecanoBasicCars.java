@@ -1,13 +1,13 @@
 
 package Pk_upamecanocars;
 
-public class UpamecanoBasicCars {
+public class Pj_UpamecanoBasicCars {
     
     private String modelCar, colorCar;
     private int yearCar, doorsCar;
     private double valueCar;
     
-    UpamecanoBasicCars(String modelCar, String colorCar, int yearCar, int doorsCar, double valueCar){
+    Pj_UpamecanoBasicCars(String modelCar, String colorCar, int yearCar, int doorsCar, double valueCar){
         this.modelCar = modelCar;
         this.colorCar = colorCar;
         this.yearCar = yearCar;
