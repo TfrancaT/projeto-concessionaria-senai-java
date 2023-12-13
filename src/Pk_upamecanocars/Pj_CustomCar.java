@@ -31,7 +31,7 @@ public class Pj_CustomCar {
     
     
     // Get & Set para modelo do carro;
-    public String getModeCar(){
+    public String getModelCar(){
         return modelCar;
     }
     public void setModelCar(String modelCar){
